@@ -1,5 +1,5 @@
 ESP-Now is a wireless communication protocol developed by Espressif Systems, primarily designed for low-power and low-latency communication between ESP8266 and ESP32 devices. It operates in the 2.4 GHz frequency range and utilizes a simple, peer-to-peer communication model, enabling devices to transmit data directly without the need for a traditional Wi-Fi network or access point. ESP-Now is well-suited for scenarios requiring quick and efficient communication, making it suitable for applications like sensor networks, home automation, and IoT devices where minimizing power consumption and latency are crucial.
-ref. []
+ref. https://www.espressif.com/en/solutions/low-power-solutions/esp-now
 
 This project demonstrates sending messages from one ESP device to another over the ESP-NOW protocol. 
 One ESP is the “sender” and the other one is the “receiver” (generically called nodes). The receiver could act as a "repeater" as well (conditional compiling directive in node_config.h).
