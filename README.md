@@ -10,14 +10,14 @@ Structure definition and payload data types can be modified to send whichever va
 The same code works for any node (sender, receiver or repeater) on bothe ESP8266 or ESP32 - configuration through conditional compiling directives in node_config.h. It has the following parts:
 
 - Initialize the hardware (microcontroller board and/or sensors);
-- Initialize ESP-NOW;
+- Initialize ESP-Now;
 - Register callback functions for sending and/or receiving data;
 - Add a peer device as the receiver - through its MAC address;
 - Loop through which the sender reads and sens data, the receiver manipulates received data.
 
 Files:
 - node_config.h - generic configuration for the node
-- node_espnow.h - ESP-NOW specific 
+- node_espnow.h - ESP-Now specific 
 - node.h - node specific
 - datatypes.h - payload data taypes
 - main.cpp - main program
